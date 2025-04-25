@@ -1,0 +1,80 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+main {
+    width:320px;
+    height:420px;
+}
+nav {
+    background-color: orange;
+    margin-top:0;
+    height:100px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    margin-top:0px;
+    padding:20px;
+    width:100%
+}
+
+.afterwork1 {
+    background-color: darkcyan;
+    height:400px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+img {
+    width:350px;
+    height:350px;
+}
+
+
+.ImgDeroulantes {
+    animation-name: slide;
+    animation-iteration-count: infinite;
+    animation-duration: 18s;
+    animation-timing-function: ease;
+    width: 400%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translate(0,0);
+    }
+
+    100% {
+      transform: translate(-75%,0);
+    }
+
+    0% {
+        transform: translate(0,0);
+      }
+  }
+
+
+.evenement1 {
+    background-color: darkgreen;
+    height:400px;
+}
+
+
+footer {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(3, 47, 3);
+    color: white;
+  }
+

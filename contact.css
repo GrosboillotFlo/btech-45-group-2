@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  width: 420px;
+  background-color: whitesmoke;
+}
+nav {
+  padding: 20px;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(3, 47, 3);
+  display: flex;
+  color: #f8aa24;
+  justify-content: left;
+}
+.horaire {
+  margin: 5px;
+  padding: 5px;
+}
+ul {
+  padding: 5px;
+  margin: 5px;
+  list-style: none;
+}
+li {
+  padding: 5px;
+  margin: 2px;
+}
+.Adresse {
+  padding: 5px;
+  margin: 2px;
+}
+h2,
+h3 {
+  padding: 5px;
+  margin: 2px;
+}
+p {
+  padding: 5px;
+  margin: 2px;
+}
+.cardgoogle {
+  width: 300px;
+  height: 150px;
+}
+a {
+  color: black;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-decoration: none;
+}
+.lienfooter {
+  color: white;
+}
+footer {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  background-color: rgb(3, 47, 3);
+  color: white;
+}
